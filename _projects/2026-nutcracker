@@ -8,7 +8,7 @@ image: /assets/images/nutcracker.png
 # Nutcracker Design
 
 Objective ("Find"): 
-To design a hand-operated lever-style nut cracker capable of cracking a macadamia nut. Specifically, find the necessary geometry of the nutcracker such that an average 
+To design a hand-operated lever-style nut cracker capable of cracking a macadamia nut. Specifically, find the necessary geometry of the nutcracker such that an average An 
 adult applying a normal grip force is capable of generating sufficient force at the nut to crack it. 
 
 Constraints ("Given"):
@@ -23,9 +23,11 @@ To crack the nut, the cracker must amplify the grip force by a sufficient mechan
 the hand grips and the distance from the pivot to the nut. Using the input and output forces and the distance from the pivot to the nut, calculate the minimum distance 
 from the pivot to the hand grips.
 
+![]({{ '/assets/images/nutcracker.png' | relative_url }})
+
 Usability Discussion:
 The designed nutcracker achieves a mechanical advantage of 6.8, producing 2040N at the jaw. This just exceeds the 2000N required to crack the nut. The required effort arm 
-for exactly 6.67 MA is 167mm, so the 170mm handle length provides a small but meaningful safety margin, meaning an average adult applying 300N of grip force is sufficient 
+For exactly 6.67 MA is 167mm, so the 170mm handle length provides a small but meaningful safety margin, meaning an average adult applying 300N of grip force is sufficient 
 to crack the nut.
 
 The 170mm handle length is comfortable and familiar, closely matching commercially available nutcrackers. Key limitations include no accommodation for users with weaker
