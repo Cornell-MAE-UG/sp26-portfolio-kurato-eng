@@ -1,8 +1,9 @@
 ---
-name: Nutcracker Design
-tools: [Statics, Engineering Design]
-image: assets/images/nutcracker.png
-description: A mechanical nutcracker designed for MAE 2000.
+layout: project
+title: Nutcracker Design
+description: A mechanical nutcracker designed for MAE 2020.
+technologies: 
+image: /assets/images/nutcracker.png
 ---
 # Nutcracker Design
 
