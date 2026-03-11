@@ -5,7 +5,7 @@ description: A mechanical nutcracker designed for MAE 2020.
 technologies: [Notability]
 image: /assets/images/nutcracker.png
 ---
-# Nutcracker Design
+Nutcracker Design
 
 Objective ("Find"): 
 To design a hand-operated lever-style nut cracker capable of cracking a macadamia nut. Specifically, find the necessary geometry of the nutcracker such that an average An 
@@ -23,7 +23,7 @@ To crack the nut, the cracker must amplify the grip force by a sufficient mechan
 the hand grips and the distance from the pivot to the nut. Using the input and output forces and the distance from the pivot to the nut, calculate the minimum distance 
 from the pivot to the hand grips.
 
-![]({{ '/assets/images/nutcracker.png' | relative_url }})
+![Diagram of Nutcracker]({{ '/assets/images/nutcracker.png' | relative_url }}){: .inline-image-rstyle="width: 200px"}
 
 Usability Discussion:
 The designed nutcracker achieves a mechanical advantage of 6.8, producing 2040N at the jaw. This just exceeds the 2000N required to crack the nut. The required effort arm 
