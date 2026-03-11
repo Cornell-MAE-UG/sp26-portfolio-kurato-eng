@@ -32,3 +32,6 @@ The 170mm handle length is comfortable and familiar, closely matching commercial
 grip strength, harder nuts to crack, and requiring higher cracking forces that may exceed the tool's capability at average grip strength. Additionally, there was no analysis 
 on how much load the nutcracker is capable of withstanding. Too much load from the grip or from the nutcracker onto the nutcracker may cause permanent damage, leading to failure.
 
+## References
+https://link.springer.com/article/10.1007/s10071-007-0131-2
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7197498/
