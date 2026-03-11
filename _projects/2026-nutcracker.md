@@ -21,7 +21,7 @@ To crack the nut, the cracker must amplify the grip force by a sufficient mechan
 the hand grips and the distance from the pivot to the nut. Using the input and output forces and the distance from the pivot to the nut, calculate the minimum distance 
 from the pivot to the hand grips.
 
-![Diagram of Nutcracker]({{ '/assets/images/nutcracker.png' | relative_url }}){: style="width:200px;" }
+![Nutcracker Diagram](/assets/images/nutcracker.png)
 
 ## Usability Discussion
 The designed nutcracker achieves a mechanical advantage of 6.8, producing 2040N at the jaw. This just exceeds the 2000N required to crack the nut. The required effort arm 
