@@ -5,8 +5,6 @@ description: A mechanical nutcracker designed for MAE 2020.
 technologies: [Notability]
 image: /assets/images/nutcracker.png
 ---
-# Nutcracker Design
-
 ## Objective ("Find")
 To design a hand-operated lever-style nut cracker capable of cracking a macadamia nut. Specifically, find the necessary geometry of the nutcracker such that an average An 
 adult applying a normal grip force is capable of generating sufficient force at the nut to crack it. 
