@@ -1,13 +1,37 @@
 ---
 layout: project
-title: Spaceship Design
-description: Just a spaceship that I designed
-technologies: [SolidWorks, Machining]
-image: /assets/images/spaceship-design.jpg
+title: Nutcracker Design
+description: A mechanical nutcracker designed for MAE 2020.
+technologies: [Notability]
+image: /assets/images/nutcracker.png
 ---
+## Objective ("Find")
+To design a hand-operated lever-style nut cracker capable of cracking a macadamia nut. Specifically, find the necessary geometry of the nutcracker such that an average An 
+adult applying a normal grip force is capable of generating sufficient force at the nut to crack it. 
 
+## Constraints ("Given")
+- Macadamia nut diameter: 20mm
+- Average adult grip force: 300N
+- Force required to crack a macadamia nut: 2000N
+- Tool Type: Lever-style nut cracker
+- Assume the nutcracker is modeled as a simple rigid lever. Neglect friction and material deformation. The nut is assumed to be perfectly spherical and centered at the jaw.
 
-In 2021, NASA asked me to design a spaceship...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+## Approach
+To crack the nut, the cracker must amplify the grip force by a sufficient mechanical advantage (MA). The lever geometry consists of the distance from the pivot to where 
+the hand grips and the distance from the pivot to the nut. Using the input and output forces and the distance from the pivot to the nut, calculate the minimum distance 
+from the pivot to the hand grips.
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+![Nutcracker Diagram](/assets/images/nutcracker.png)
 
+## Usability Discussion
+The designed nutcracker achieves a mechanical advantage of 6.8, producing 2040N at the jaw. This just exceeds the 2000N required to crack the nut. The required effort arm 
+For exactly 6.67 MA is 167mm, so the 170mm handle length provides a small but meaningful safety margin, meaning an average adult applying 300N of grip force is sufficient 
+to crack the nut.
+
+The 170mm handle length is comfortable and familiar, closely matching commercially available nutcrackers. Key limitations include no accommodation for users with weaker
+grip strength, harder nuts to crack, and requiring higher cracking forces that may exceed the tool's capability at average grip strength. Additionally, there was no analysis 
+on how much load the nutcracker is capable of withstanding. Too much load from the grip or from the nutcracker onto the nutcracker may cause permanent damage, leading to failure.
+
+## References
+https://link.springer.com/article/10.1007/s10071-007-0131-2
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7197498/
