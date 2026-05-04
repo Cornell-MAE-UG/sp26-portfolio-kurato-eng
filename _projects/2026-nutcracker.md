@@ -1,9 +1,9 @@
 ---
 layout: project
-title: Nutcracker Design
+title: Nutcracker Design (Non-Rigid)
 description: A mechanical nutcracker designed for MAE 2020.
 technologies: [Notability]
-image: /assets/images/nutcracker.png
+image: /nutcracker-deflection.png
 ---
 ## Objective ("Find")
 To design a hand-operated lever-style nut cracker capable of cracking a macadamia nut. Specifically, find the necessary geometry of the nutcracker such that an average An 
