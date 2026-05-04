@@ -3,7 +3,8 @@ layout: project
 title: Nutcracker Design (Non-Rigid)
 description: A mechanical nutcracker designed for MAE 2020.
 technologies: [Notability]
-image: /assets/images/nutcracker-deflection.png
+image: /nutcracker-deflection.png
+
 ---
 ## Objective ("Find")
 The nutcracker mechanism is modeled as a lever system designed to crack a macadamia nut. The required output force at the nut is 2000 N. The input force, originally 
@@ -20,7 +21,7 @@ of the handle remains below 2% of its total length.
 - The original geometry of the nutcracker, including lever arm distances, must remain unchanged
 
 ## Approach
-![Nutcracker Diagram](/assets/images/nutcracker-deflection.png)
+![Nutcracker Diagram](/nutcracker-deflection.png)
 
 ## Usability Discussion
 Accounting for beam deformation improves the realism and reliability of the nutcracker design. By limiting deflection to less than 2% of the handle length, the system 
