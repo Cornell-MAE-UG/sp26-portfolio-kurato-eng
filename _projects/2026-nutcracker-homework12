@@ -6,31 +6,28 @@ technologies: [Notability]
 image: /assets/images/nutcracker.png
 ---
 ## Objective ("Find")
-To design a hand-operated lever-style nut cracker capable of cracking a macadamia nut. Specifically, find the necessary geometry of the nutcracker such that an average An 
-adult applying a normal grip force is capable of generating sufficient force at the nut to crack it. 
+The nutcracker mechanism is modeled as a lever system designed to crack a macadamia nut. The required output force at the nut is 2000 N. The input force, originally 
+assumed to be applied by hand, is 300 N and is now replaced by a linear actuator. The distance from the pivot to the nut is 25 mm, and the distance from the pivot to 
+the end of the handle is 170 mm, which was determined from the required mechanical advantage. The total handle length is therefore 170 mm. In the updated model, the 
+handles are no longer assumed to be rigid and are instead treated as beams that deform under transverse loading. The design must ensure that the maximum vertical deflection
+of the handle remains below 2% of its total length.
 
 ## Constraints ("Given")
-- Macadamia nut diameter: 20mm
-- Average adult grip force: 300N
-- Force required to crack a macadamia nut: 2000N
-- Tool Type: Lever-style nut cracker
-- Assume the nutcracker is modeled as a simple rigid lever. Neglect friction and material deformation. The nut is assumed to be perfectly spherical and centered at the jaw.
+- The nutcracker must generate at least 2000N at the nut to successfully crack it
+- The maximum vertical deflection of the handle must be less than 2% of its total length
+- The handle must be designed to be mass-efficient by maximizing stiffness while minimizing material usage
+- Only transverse components of the applied forces are considered in the beam analysis
+- The original geometry of the nutcracker, including lever arm distances, must remain unchanged
 
 ## Approach
-To crack the nut, the cracker must amplify the grip force by a sufficient mechanical advantage (MA). The lever geometry consists of the distance from the pivot to where 
-the hand grips and the distance from the pivot to the nut. Using the input and output forces and the distance from the pivot to the nut, calculate the minimum distance 
-from the pivot to the hand grips.
 
-![Nutcracker Diagram](/assets/images/nutcracker.png)
 
 ## Usability Discussion
-The designed nutcracker achieves a mechanical advantage of 6.8, producing 2040N at the jaw. This just exceeds the 2000N required to crack the nut. The required effort arm 
-For exactly 6.67 MA is 167mm, so the 170mm handle length provides a small but meaningful safety margin, meaning an average adult applying 300N of grip force is sufficient 
-to crack the nut.
-
-The 170mm handle length is comfortable and familiar, closely matching commercially available nutcrackers. Key limitations include no accommodation for users with weaker
-grip strength, harder nuts to crack, and requiring higher cracking forces that may exceed the tool's capability at average grip strength. Additionally, there was no analysis 
-on how much load the nutcracker is capable of withstanding. Too much load from the grip or from the nutcracker onto the nutcracker may cause permanent damage, leading to failure.
+Accounting for beam deformation improves the realism and reliability of the nutcracker design. By limiting deflection to less than 2% of the handle length, the system 
+ensures that most of the input force is effectively transmitted to the nut rather than lost through structural bending. The use of a hollow aluminum beam provides a high 
+stiffness-to-weight ratio, allowing the handles to remain lightweight while still resisting deformation. This improves handling and reduces unnecessary material usage.
+Replacing manual input with a linear actuator allows for more consistent and controlled force application. This enhances usability by making the nutcracker easier to 
+operate, more repeatable in performance, and less dependent on user strength.
 
 ## References
 https://link.springer.com/article/10.1007/s10071-007-0131-2
