@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Nutcracker Design
+title: Nutcracker Design (Non-Rigid)
 description: A mechanical nutcracker designed for MAE 2020.
 technologies: [Notability]
 image: /assets/images/nutcracker.png
